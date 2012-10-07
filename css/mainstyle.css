@@ -1,0 +1,501 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+      background:#f9fff1;
+	  color:#748365;
+	  padding:20px;
+      margin:auto;	  
+}
+/*###################################################################*/
+/* ---------- Main Page conetent ~ Navbar ~ Infor Boxes ----------  */
+/*###################################################################*/
+
+/*/////////////////////////////////////////////////////*/
+/*---------- Header , Logo And Logo Links ----------  */
+/*/////////////////////////////////////////////////////*/
+header {
+	text-align:center;
+	width:1000px;
+    margin:auto;
+}
+.main {
+	margin:auto;
+	text-align:left;
+	font-family:font-rockwell;
+	font-size:22px;
+	color:#000;
+}
+/*----  Gernerl Box ----------  */
+.info-box {
+	height:94px;
+	width:953px;
+	margin:auto;
+	background-image:url(../media/images/Info_Box.png) ;
+	background-repeat:no-repeat;
+	background-position:top;
+	padding:5px;
+}
+/*  ---------- General Use Heading Box  ---------- */
+.heading-box{
+	height:40px;
+	width:963px;
+	margin:auto;
+	margin-top:4px;
+	background-image:url(../media/images/Heading-Box.png) ;
+	background-repeat:no-repeat;
+	background-position:top;
+
+}
+
+.heading-content {
+	height:30px;
+	width:452px;
+	margin:auto;
+	padding:5px;
+	text-align:center;
+}
+
+/*----------  Logo And Logo Links ----------  */
+.logo {
+	width:550px;
+	height:46px;
+	text-align:center;
+	margin:auto;
+	background-image:url(../media/images/Title.png) ;
+	background-repeat:no-repeat;
+	background-position:top;
+}
+/*----------  McConnel Link ----------  */
+.logo-link-1{
+	height:46px;
+	width:50px;
+	float:left;
+	margin-left:385px;
+}
+/*---------- Twose Link ----------  */
+.logo-link-2{
+	height:46px;
+	width:90px;
+	float:left;
+	margin-left:8px;
+}
+
+/*///////////////////////////////////*/
+/*---------- Navigation ----------  */
+/*///////////////////////////////////*/
+nav {
+	height:40px;
+    text-align:center;
+	font-size:20px;
+	padding-top:15px;
+	}
+nav a {
+    color:#2b3a1f;
+	text-decoration:none;
+	text-align:center;
+	font-family:font-rockwell, sans-serif;
+	margin-left:10px;
+}
+
+nav a:hover {
+	text-decoration:underline;
+}
+
+/*########################################*/
+/* ---------- Page conetents ----------  */
+/*########################################*/
+
+/*///////////////////////////////////*/
+/*---------- Home ----------------  */
+/*/////////////////////////////////*/
+
+/*---------- Latest Machines Boxes ----------  */
+.mcconnel-body {
+	height:136px;
+	width:963px;
+	margin:auto;
+	background-image:url(../media/images/Latest_Machine_Box_McConnel.png) ;
+	background-repeat:no-repeat;
+	background-position:center;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.twose-body {
+	height:136px;
+	width:963px;
+	margin:auto;
+	background-image:url(../media/images/Latest_Machine_Box_Twose.png) ;
+	background-repeat:no-repeat;
+	background-position:center;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.latest-machine-link {
+	width:177px;
+	height:124px;
+	margin-top:1px;
+	padding:5px;
+	float:left;
+}
+
+.latest-machine-img {
+	width:139px;
+	height:124px;
+	margin-top:1px;
+	margin-left:6px;
+	padding:5px;
+	float:left;
+}
+
+
+/*---------- Information Box , Three coloums ----------*/
+.info-boxes-body{
+	height:400px;
+	width:963px;
+	margin:auto;
+	background-image:url(../media/images/News_And_More.png) ;
+	background-repeat:no-repeat;
+	background-position:top;
+	margin-top:4px;
+	text-align:center;
+	font-family:font-rockwell;
+}
+.info-boxes-container {
+	height:400px;
+	width:319px;	
+	float:left;
+	margin:auto;
+	margin-right:3px;
+}
+.info-boxes-end {
+	height:400px;
+	width:319px;	
+	float:left;
+	margin:auto;
+}
+.info-boxes-head {
+	width:309px;
+	height:21px;
+	padding:5px;	
+}
+
+.info-boxes-content {
+	width:309px;
+	height:355px;
+	margin-top:4px;
+	padding:5px;
+}
+
+
+
+/*///////////////////////////////////*/
+/*---------- McConnel-------------  */
+/*/////////////////////////////////*/
+/*  ---------- Latets Machines List Rows  ----------*/
+.latest-product-container {
+	margin:auto;
+	margin-top:4px;
+	height:136px;
+	width:963px;
+	background-image:url(../media/images/Machine_List_Box.png) ;
+	background-repeat:no-repeat;
+	background-position:top;
+	font-family:font-rockwell
+	font-size:16px;
+}
+
+.latest-product-img {
+	margin:auto;
+	width:141px;
+	height:126px;	
+	padding:5px;
+	float:left;
+}
+
+.latest-product-heading {
+	float:left;
+	margin-left:4px;
+	height:21px;
+	width:798px;
+	padding:5px;
+	text-align:left;
+}
+
+.latest-product-content {
+	float:left;
+	margin-left:4px;
+	margin-top:4px;
+	width:798px;
+	height:91px;
+	padding:5px;
+	text-align:left;
+}
+
+/*///////////////////////////////////*/
+/*---------- Contact-------------  */
+/*/////////////////////////////////*/
+.contact-body {
+	height:600px;
+	width:963px;
+	margin:auto;
+	margin-top:4px;
+}
+
+.adress-box-container {
+	width:262px;
+	float:left;
+	text-align:center;
+}
+.large-box-container {
+	height:263px;
+	width:262px;
+	margin:auto;
+	background-image:url(../media/images/Large-Box.png) ;
+	background-repeat:no-repeat;
+	background-position:top;
+}
+.large-box-heading {
+	height:21px;
+	width:252px;
+	margin:auto;
+	padding:5px;
+}
+.large-box-content {
+	height:230px;
+	width:252px;
+	margin:auto;
+	padding:5px;
+	margin-top:5px;
+}
+.small-box {
+	height:81px;
+	width:262px;
+	margin:auto;
+	background-image:url(../media/images/Small-Box.png) ;
+	background-repeat:no-repeat;
+	background-position:top;
+	margin-top:4px;
+}
+.small-box-heading {
+	height:21px;
+	width:252px;
+	margin:auto;
+	padding:5px;
+
+}
+.small-box-content {
+	height:32px;
+	width:252px;
+	margin:auto;
+	padding:5px;
+	padding-top:8px;
+	margin-top:5px;
+}
+
+.google-map {
+	width:676px;
+	height:423px;
+	margin:auto;
+	padding:5px;
+	margin-left:8px;
+	float:left;
+	background-image:
+	url(../media/images/Map-Border.png) ;
+	background-repeat:no-repeat;
+	background-position:top;
+}
+
+
+/*///////////////////////////////////*/
+/*---------- Parts -------------  */
+/*/////////////////////////////////*/
+
+.parts-box {
+	width:963px;
+	height:171px;
+	margin:auto;
+	background-image:
+	url(../media/images/Parts.png) ;
+	background-repeat:no-repeat;
+	background-position:top;
+	margin-top:4px;
+		
+} 
+
+.parts-box-contatiner {
+	width:151px;
+	height:171px;
+	float:left;	
+	color:#000;
+	text-decoration:none;
+}
+.parts-box-heading {
+	width:141px;
+	height:21px;
+	padding:5px;
+	text-align:center;
+	font-size:18px;
+	float:left;
+}
+
+
+.parts-box-img {
+	width:141px;
+	height:126px;
+	margin-top:4px;
+	padding:5px;
+	float:left;
+}
+
+.parts-box-content{
+	width:798px;
+	height:161px;
+	padding:5px;
+	float:left;
+	margin-left:4px;
+}
+
+.parts-hotline-container {
+	width:963px;
+	height:81px;
+	margin:auto;
+	background-image:
+	url(../media/images/Parts-Hotline.png) ;
+	background-repeat:no-repeat;
+	background-position:top;
+	margin-top:4px;
+	text-align:center;
+		
+} 
+.hotline-box-content {
+	width:452px;
+	height:71px;
+	padding:5px;
+	margin:auto;
+	margin-left:5px;
+	float:left;
+		
+} 
+/* Hotline Box Left */
+.hotline-box-left {
+	width:245px;
+	height:81px;
+	margin:auto;
+	float:left;
+		
+} 
+.parts-hotline-heading-1 {
+	width:235px;
+	height:21px;
+	padding:5px;
+	margin:auto;
+		
+} 
+.parts-hotline-content-1 {
+	width:235px;
+	height:30px;
+	padding:5px;
+	padding-top:11px;
+	margin:auto;
+	margin-top:4px;
+		
+} 
+
+/* Hotline Box Right */
+.hotline-box-right {
+	width:245px;
+	height:81px;
+	margin:auto;
+	float:right;	
+} 
+.parts-hotline-heading-2 {
+	width:235px;
+	height:21px;
+	padding:5px;
+	margin:auto;
+} 
+.parts-hotline-content-2 {
+	width:235px;
+	height:30px;
+	padding:5px;
+	padding-top:11px;
+	margin:auto;
+	margin-top:4px;
+		
+} 
+
+/*///////////////////////////////////*/
+/*---------- Parts -------------  */
+/*/////////////////////////////////*/
+.defined-parts-box {
+	width:963px;
+	height:171px;
+	margin:auto;
+	background-image:
+	url(../media/images/Defined-Parts.png) ;
+	background-repeat:no-repeat;
+	background-position:top;	
+	margin-top:4px;
+	
+}
+
+/* Collumn 1 */
+.defined-parts-box-container-1 {
+	width:151px;
+	height:171px;
+	float:left;	
+}
+.defined-parts-box-heading-1 {
+	width:141px;
+	height:21px;
+	padding:5px;
+	text-align:center;
+	font-size:18px;
+	float:left;
+}
+.defined-parts-box-img {
+	width:141px;
+	height:126px;
+	margin-top:4px;
+	padding:5px;
+	float:left;
+}
+
+/* Collumn 2 */
+.defined-parts-box-container-2 {
+	width:808px;
+	height:171px;
+	float:left;	
+	margin-left:4px;
+}
+.defined-parts-box-heading-2 {
+	width:798px;
+	height:21px;
+	padding:5px;
+	text-align:left;
+	font-size:18px;
+	float:left;
+}
+.defined-parts-box-content{
+	width:798px;
+	height:126px;
+	padding:5px;
+	float:left;
+	margin-top:4px;
+}
+
+
+
+/* Custom Font Load */
+@font-face {
+    font-family:"font-rockwell";
+	src:url("fonts/font-rockwell.otf") format("otf"),
+    url("fonts/font-rockwell.eot") format("eot"),
+	url("fonts/font-rockwell.woff") format("woff"),
+	url("fonts/font-rockwell.ttf") format("truetype"), 
+	url("fonts/font-rockwell.svg#font-rockwell") format("svg"); 
+	font-weight:normal;
+	font-style:normal;
+}
